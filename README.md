@@ -8,8 +8,8 @@
   <h3 align="center">Gummlas Blog</h3>
 
   <p align="center">
-    Gummlas Blog
-    <br />
+<!--     Gummlas Blog
+    <br /> -->
     <!--<a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a> -->
     <!--<br /> -->
     <!--<br />-->
