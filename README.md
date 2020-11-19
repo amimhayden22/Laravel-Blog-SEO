@@ -10,22 +10,22 @@
 <br />
 <p align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="" alt="Logo" width="80" height="80">
+    <img src="https://laravel.com/img/logomark.min.svg" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Laravel Blog SEO</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    Hello World!
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+<!--     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a> -->
+<!--     <br /> -->
     <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://gummlas.tech">Lihat Blog</a>
+<!--     · -->
+<!--     <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a> -->
+<!--     · -->
+<!--     <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a> -->
   </p>
 </p>
 
