@@ -19,6 +19,7 @@
 
 <body>
     <div id="app">
+      @include('sweetalert::alert')
       @guest
         @yield('login')
       @endguest

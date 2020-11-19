@@ -69,3 +69,14 @@
     {{ $posts->links() }}
 </div>
 @endsection
+@section('script')
+    <script>
+        swal({
+            timer: 3000
+            });
+            function () {
+                location.reload(true);
+                tr.hide();
+        };
+    </script>
+@endsection

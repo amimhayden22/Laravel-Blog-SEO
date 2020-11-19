@@ -8,6 +8,7 @@ use App\Post;
 use App\Tag;
 use Illuminate\Support\Str;
 use Illuminate\Http\Request;
+use RealRashid\SweetAlert\Facades\Alert;
 
 class PostController extends Controller
 {
