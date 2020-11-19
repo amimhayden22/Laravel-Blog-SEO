@@ -13,7 +13,7 @@
     <!--<a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a> -->
     <!--<br /> -->
     <!--<br />-->
-    <a href="https://gummlas.tech">Lihat Blog</a>
+    <a href="https://gummlas.tech">Demo</a>
 <!--     · -->
 <!--     <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a> -->
 <!--     · -->
@@ -69,6 +69,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Sosial Media
 
-Gus Khamim - [@your_instagram](https://www.instagram.com/_guskhamim/) - gus.khamim22@gmail.com
+Gus Khamim - [@_guskhamim](https://www.instagram.com/_guskhamim/) - gus.khamim22@gmail.com
 
 Project Link: [https://github.com/amimhayden22/Laravel-Blog-SEO](https://github.com/amimhayden22/Laravel-Blog-SEO)
