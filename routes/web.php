@@ -11,6 +11,11 @@
 |
 */
 
+// Laravel File Manager
+Route::group(['prefix' => 'laravel-filemanager', 'middleware' => ['web', 'auth']], function () {
+    \UniSharp\LaravelFilemanager\Lfm::routes();
+});
+
 // FrontEnd
 Route::get('/', 'FrontEndController@index')->name('blog.index');
 Route::get('/page/{slug}', 'FrontEndController@show')->name('blog.show');

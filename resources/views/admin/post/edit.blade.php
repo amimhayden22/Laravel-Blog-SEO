@@ -74,7 +74,15 @@
 @section('script')
     <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/js/select2.min.js"></script>
     <script src="https://cdn.ckeditor.com/4.13.0/standard/ckeditor.js"></script>
+    <script>
+        var options = {
+          filebrowserImageBrowseUrl: '/laravel-filemanager?type=Images',
+          filebrowserImageUploadUrl: '/laravel-filemanager/upload?type=Images&_token=',
+          filebrowserBrowseUrl: '/laravel-filemanager?type=Files',
+          filebrowserUploadUrl: '/laravel-filemanager/upload?type=Files&_token='
+        };
+    </script>
     <script >
-        CKEDITOR.replace( 'content' );
+        CKEDITOR.replace( 'content', options);
     </script>
 @endsection
