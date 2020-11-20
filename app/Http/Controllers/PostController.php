@@ -9,6 +9,7 @@ use App\Tag;
 use Illuminate\Support\Str;
 use Illuminate\Http\Request;
 use RealRashid\SweetAlert\Facades\Alert;
+use Cviebrock\EloquentSluggable\Services\SlugService;
 
 class PostController extends Controller
 {
@@ -59,7 +60,7 @@ class PostController extends Controller
             'category_id'   => $request->category_id,
             'content'       => $request->content,
             'image'         => 'backend/img/posts/thumbnail/'.$newImage,
-            'slug'          => Str::slug($request->title),
+            'slug'          => SlugService::createSlug(Post::class, 'slug', $request->title),
             'user_id'       => Auth::id(),
         ]);
 
@@ -120,14 +121,14 @@ class PostController extends Controller
                 'category_id'   => $request->category_id,
                 'content'       => $request->content,
                 'image'         => 'backend/img/posts/thumbnail/'.$newImage,
-                'slug'          => Str::slug($request->title),
+                'slug'          => SlugService::createSlug(Post::class, 'slug', $request->title),
             ];
         }else{
             $updatePost = [
                 'title'         => $request->title,
                 'category_id'   => $request->category_id,
                 'content'       => $request->content,
-                'slug'          => Str::slug($request->title),
+                'slug'          => SlugService::createSlug(Post::class, 'slug', $request->title),
             ];
         }
 

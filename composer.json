@@ -13,7 +13,8 @@
         "laravel/framework": "^6.18.35",
         "laravel/tinker": "^2.0",
         "realrashid/sweet-alert": "^3.1",
-        "unisharp/laravel-filemanager": "^2.2"
+        "unisharp/laravel-filemanager": "^2.2",
+        "cviebrock/eloquent-sluggable": "^6.0"
     },
     "require-dev": {
         "facade/ignition": "^1.4",
